@@ -1,6 +1,8 @@
-number = int(input("Pick an number between 0 and 100: "))
+var1 = int(input("Give me a number: "))
+var2 = int(input("Give me a number: "))
+total = 0
 
-if number <= 50:
-    print("Fewer than average")
-else:
-    print("More than average")
+for x in range(var1 + var2):
+    total = total + x
+
+print(total)
