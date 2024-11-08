@@ -1,10 +1,9 @@
-cookies = {"Chocolate" : 1,
-           "White Chocolate" : 2,
-           "Dark Chocolate" : 3,
-           "Snickerdoodle" : 4,
-           "Sugar" : 5
+survival_tools = {
+    "knife": int(input("From 1-10, how important is a knife? ")),
+    "fire starter": int(input("From 1-10, how important is a fire starter? ")),
+    "pot": int(input("From 1-10, how important is a pot? ")),
+    "rope": int(input("From 1-10, how important is a rope? ")),
+    "tarp": int(input("From 1-10, how important is a tarp? "))
 }
 
-fruits = ["Strawberry", "Apple", "Orange", "Mango", "Pineapple"]
-
-print(cookies), print(fruits)
+print(survival_tools)
