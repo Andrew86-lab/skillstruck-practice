@@ -1,9 +1,14 @@
-coins = {"pennies": 1, "nickels": 10, "dimes": 5, "quarters": 25}
+group = {
+    "box1": 5,
+    "box2": 2,
+    "box3": 10,
+    "box4": 3,
+    "box5": int(input("Give the number: "))
+}
 
-coins["silver dollar"] = 17
+total = 0
 
-coins.pop("pennies")
+for key in group:
+    total += 25*group.get(key)
 
-print(coins)
-
-print(len(coins))
+print(total)
