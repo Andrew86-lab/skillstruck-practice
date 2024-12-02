@@ -1,11 +1,21 @@
-dictionary = {1: "bicycle", 2: "soccer balls", 3: "piano books"}
+shopping = {
 
-item_4 = input("Enter something you have 4 of: ")
-item_5 = input("Enter something you have 5 of: ")
-item_6 = input("Enter something you have 6 of: ")
+}
 
-dictionary[4] = item_4
-dictionary[5] = item_5
-dictionary[6] = item_6
+fruits1 = int(input("How many apples do you need: "))
+fruits2 = int(input("How many bananas do you need: "))
+fruits3 = int(input("How many strawberries do you need: "))
 
-print(dictionary)
+if fruits1 > 5:
+    apple = fruits1 - 5
+    shopping["apples"] = apple
+
+if fruits2 > 7:
+    bananas = fruits2 - 7
+    shopping["bananas"] = bananas
+
+if fruits3 > 3:
+    strawberries = fruits3 - 3
+    shopping["strawberries"] = strawberries
+
+print(shopping)
