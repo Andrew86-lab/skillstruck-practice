@@ -1,7 +1,7 @@
-grades = (95, 70, 85, 92, 100)
+var1 = ("good", "bad", "evil", "hero", "prince", "princesses", "king", "queen")
 
-print(grades)
+print(var1[-3])
 
-print(grades[-2])
+print(var1[5])
 
-print(grades[0:3])
+print(var1[0:4])
