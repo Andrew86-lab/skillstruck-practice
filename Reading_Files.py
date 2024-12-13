@@ -1,3 +1,5 @@
-file = open("Text_File.Txt", "r")
+file = open("speech.txt", "r")
 
 print(file.read())
+
+file.close()
