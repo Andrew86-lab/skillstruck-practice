@@ -1,5 +1,13 @@
-file = open("speech.txt", "r")
+inventory = open("inventory.txt", 'r')
 
-print(file.read())
+eof = False
 
-file.close()
+while eof == False:
+    line = inventory.readline()
+    if line != '':
+        if line != "\n":
+            print(line)
+    else:
+        print("End of file")
+        eof = True
+        inventory.close()
