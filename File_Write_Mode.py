@@ -1,6 +1,7 @@
-file = open("porcupine.txt.txt", "w")
-file.write("In short, I love to code!")
-file.close()
+answer = input("Say Whatever: ")
 
-file = open("porcupine.txt.txt", "r")
-print(file.read())
+file = open("report.txt", "w")
+file.write(answer)
+flie.close
+
+print(report.read())
